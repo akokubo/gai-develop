@@ -14,21 +14,8 @@ sudo apt install python3-pip
 
 [Y/n]と聞かれたら <kbd class="keyboard-key nowrap" lang="en" style="border: 1px solid #aaa; border-radius: 2px; box-shadow: 1px 2px 2px #ddd; background-color: #f9f9f9; background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 1px 3px; font-family: inherit; font-size: 0.85em;">y</kbd>
 
-## 3. Pythonのバージョンを調べる
-
-```sh
-python3 --version
-```
-
 ## 4. Python仮想環境を作るvenvを入れる
-venvで検索する
 ```sh
-apt search venv
-```
-
-調べたPythonのバージョンに合わせたvenvをインストール
-
-```sh
-sudo apt install python3.12-venv
+sudo apt install python3-venv
 ```
 [Y/n]と聞かれたら <kbd class="keyboard-key nowrap" lang="en" style="border: 1px solid #aaa; border-radius: 2px; box-shadow: 1px 2px 2px #ddd; background-color: #f9f9f9; background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 1px 3px; font-family: inherit; font-size: 0.85em;">y</kbd>

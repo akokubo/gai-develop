@@ -4,7 +4,7 @@
 
 ## 2. 機能拡張(Extensions)を押す　
 
-![](media.4/image1.png)
+![](../images/06-01.png)
 
 ## 2. 日本語化されていない場合
 
@@ -19,11 +19,11 @@
 インストールされていて、まだ日本語化されていない場合、一度、Visual
 Studio Codeを終了して、再度起動すればいい。
 
-![](media.4/image3.png)
+![](../images/06-02.png)
 
 ## 3. 左下の「管理」Manageボタン(歯車の形)をクリックし、「設定」を選ぶ
 
-![](media.4/image2.png)
+![](../images/06-03.png)
 
 ## 4. 各種設定
 
@@ -35,7 +35,7 @@ Studio Codeを終了して、再度起動すればいい。
 
 「white」で検索し 「Editor: Render Whitespace」を「selection」→「all」に
 
-![](media.4/image4.png)
+![](../images/06-04.png)
 
 ## 5. 配色テーマの変更
 

@@ -4,25 +4,25 @@
 
 ## 2. 「visual studio code」で検索する。
 
-![](media.3/image9.png)
+![](../images/05-01-wsl.png)
 
 ## 3. 検索結果から公式サイトの「Visual Studio Code - コードエディター...」を選ぶ
 
-![](media.3/image7.png)
+![](../images/05-02-wsl.png)
 
 ## 4. 公式サイトで「Visual Studio Codeをダウンロードする」を選ぶ
 
-# ![](media.3/image8.png)
+# ![](../images/05-03-wsl.png)
 
 ## 5. Windows版を選ぶ
 
-![](media.3/image11.png)
+![](../images/05-04-wsl.png)
 
 ## 6. 「ダウンロード」フォルダにダウンロードされる
 
 「VSCodeUserSetup....exe」のような名前のファイルになる。
 
-![](media.3/image1.png)
+![](../images/05-05-wsl.png)
 
 ## 7. ファイルをダブルクリックしてインストール
 
@@ -35,26 +35,38 @@
 
 ## 9. 使用許諾契約書に「同意する」を選んで「次へ」
 
-![](media.3/image4.png)
+![](../images/05-06-wsl.png)
 
 ## 10. 「次へ」
 
-![](media.3/image10.png)
+![](../images/05-07-wsl.png)
 
 ## 11. 「次へ」
 
-![](media.3/image3.png)
+![](../images/05-08-wsl.png)
 
 ## 12. 「デスクトップ上にアイコンを作成する」など、必要と思えるものにチェックを入れ「次へ」
 
-![](media.3/image2.png)
+![](../images/05-09-wsl.png)
 
 ## 13. 「インストール」
 
-![](media.3/image5.png)
+![](../images/05-10-wsl.png)
 
 ## 14. 「完了」
 
-![](media.3/image6.png)
+![](../images/05-11-wsl.png)
 
 ## 15. Visual Studio Codeが起動する
+# WSLからVisual Studio Codeを起動
+
+<kbd class="keyboard-key nowrap" lang="en" style="border: 1px solid #aaa; border-radius: 2px; box-shadow: 1px 2px 2px #ddd; background-color: #f9f9f9; background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 1px 3px; font-family: inherit; font-size: 0.85em;"><span class="Unicode">⊞</span> Win</kbd>
++
+<kbd class="keyboard-key nowrap" lang="en" style="border: 1px solid #aaa; border-radius: 2px; box-shadow: 1px 2px 2px #ddd; background-color: #f9f9f9; background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 1px 3px; font-family: inherit; font-size: 0.85em;">S</kbd>
+で検索を起動し、「ubuntu」を検索し、「Ubuntu」をクリックしてWSLを起動する
+
+WSLで以下のように打つ。
+
+```sh
+code
+```

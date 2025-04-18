@@ -6,19 +6,6 @@
 +
 <kbd class="keyboard-key nowrap" lang="en" style="border: 1px solid #aaa; border-radius: 2px; box-shadow: 1px 2px 2px #ddd; background-color: #f9f9f9; background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 1px 3px; font-family: inherit; font-size: 0.85em;">S</kbd>で検索を起動し、「ubuntu」を検索し、「Ubuntu」をクリックしてWSLを起動する
 
-## 2. 作業ディレクトリに入る
-現在のパスを確認。
-```sh
-pwd
-```
-
-必要に応じてcdで作業ディレクトリに移動。
-
-作業ディレクトリの中を確認。
-```sh
-ls -CF
-```
-
 ## 3. 「プロンプト」とは
 「プロンプト」とは、コンピュータ関連では主に2つの意味がある。
 
@@ -32,25 +19,36 @@ ls -CF
 
 「入力促進記号」の方のプロンプトを確認する。
 
-プロンプトが「(仮想環境名) owner@example:~\$ 」のようになっていれば、既に仮想環境に入っている。
+プロンプトが「(仮想環境名) ユーザー名@コンピュータ名:~\$ 」のようになっていれば、既に仮想環境に入っている。
 
-プロンプトが「owner@example:~\$ 」のようになっている場合は、仮想環境に入っていない。
+プロンプトが「ユーザー名@コンピュータ名:~\$ 」のようになっている場合は、仮想環境に入っていない。
 
 ## 5. 仮想環境がなければ作る
 
+任意のディレクトリに作れるが、今回はいろいろな開発で共通に使うことを想定し、ホーム・ディレクトリに作る。
+
+ホーム・ディレクトリに移動
 ```sh
-python3 -m venv 仮想環境名
+cd
+```
+
+「venv-llm」という名前の仮想環境を作る。名前は他のものでもいい。
+
+```sh
+python3 -m venv venv-llm
 ```
 
 ## 6. 仮想環境に入る
 
 ```sh
-source 仮想環境名/bin/activate
+source ~/venv-llm/bin/activate
 ```
 
 ## 7. プロンプトを確認
 
-プロンプトが「(仮想環境名) owner@example:~\$ 」のようになれば、仮想環境に入った。
+プロンプトが「(仮想環境名) ユーザー名@コンピュータ名:~\$ 」のようになれば、仮想環境に入った。
+
+ここまでの例に従った場合、「(venv-llm) ユーザー名@コンピュータ名:~\$ 」になる。
 
 ## 8. 仮想環境のpipをアップグレード
 
