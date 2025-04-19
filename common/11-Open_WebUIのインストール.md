@@ -5,7 +5,7 @@
 ### Windowsの場合
 Ubuntuで
 ```sh
-python3 -m venv ~/venv-llm
+source ~/venv-llm/bin/activate
 ```
 
 ### macOSの場合
