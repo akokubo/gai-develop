@@ -17,15 +17,15 @@ https://ollama.com/
 
 Windowsでは「Ubuntu」、macOSでは「ターミナル」を起動。
 
-とりあえず小さいLLaMa 3.2をダウンロード
+とりあえず小さいGemma 3の少サイズモデルをダウンロード
 
 ```sh
-ollama pull llama3.2
+ollama pull gemma3:1b-it-qat
 ```
 
 ## OllamaでLLMを起動
 ```sh
-ollama run llama3.2
+ollama run gemma3:1b-it-qat
 ```
 
 起動したら、何か質問して応答を確認する。
